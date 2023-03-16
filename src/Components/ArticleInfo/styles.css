@@ -1,0 +1,34 @@
+
+.article-info{
+    font-size: 0.875 rem;
+}
+.article-info{
+    margin: 2 em 0;
+}
+@media (min-width: 675 px){
+    .article-recent{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-recent-main{
+        width: 68%;
+    }
+    .article-recent-secondary{
+        width: 30%;
+    }
+    .article-image{
+        width: 100%;
+        min-height: 250 px;
+        object-fit: cover;
+    }
+    .article-featured{
+        display: flex;
+        flex-direction: column;
+    }
+    .article-image{
+        order: -2;
+    }
+    .article-info{
+        order: -1;
+    }
+}
